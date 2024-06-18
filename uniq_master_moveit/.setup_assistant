@@ -1,0 +1,27 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: ra_10
+    relative_path: urdf/unrb_ra10.xacro
+  srdf:
+    relative_path: config/unrb_ra10.srdf
+  package_settings:
+    author_name: v.shtein
+    author_email: v.shtein@uniquerobotics.ru
+    generated_timestamp: 1717615878
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity

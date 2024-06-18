@@ -1,0 +1,9 @@
+# Default initial positions for unrb_ra10's ros2_control fake system
+
+initial_positions:
+  Revolute 1: 0
+  Revolute 2: 0
+  Revolute 3: 0
+  Revolute 4: 0
+  Revolute 5: 0
+  Revolute 6: 0
